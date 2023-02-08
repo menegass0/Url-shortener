@@ -15,5 +15,6 @@ shortenBtn.onclick = ()=>{
             console.log(data);
         }
     }
-    xhr.send();
+    let formData = new FormData(form);
+    xhr.send(formData);
 }

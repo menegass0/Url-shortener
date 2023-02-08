@@ -11,7 +11,7 @@
     <body>
         <div class="wrapper">
             <form action="#">
-                <input type="text" placeholder="Enter or paste a log url" required>
+                <input type="text" name="full-url" placeholder="Enter or paste a log url" required>
                 <i class="url-icon uil uil-link"></i>
                 <button>Shorten</button>
 
