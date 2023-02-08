@@ -1,3 +1,7 @@
+<?php
+    include "php/url-control.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -77,7 +81,7 @@
             <div class="info-box">Your short link is ready. You can also edit your short link now but can't edit once you save it</div>
             <form action="#">
                 <label>Edit your shorten url</label>
-                <input type="text" spellcheck="false" value="example.com">
+                <input type="text" spellcheck="false" value="">
                 <i class="copy-icon uil uil-copy-alt"></i>
                 <button>Save</button>
             </form>

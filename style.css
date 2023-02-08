@@ -189,7 +189,7 @@ form input:valid ~ button{
     visibility: hidden;
     transition: all 0.3s ease;
 }
-.popup-box .show{
+.popup-box.show{
     opacity: 1;
     visibility: visible;
     transform: translate(-50%, -50%) scale(1);
@@ -205,11 +205,11 @@ form input:valid ~ button{
     text-align: center;
 }
 
-/* .info-box.error{
+.info-box.error{
     color: #721c24;
     background: #f8d7da;
     border-color: 1px solid #f5c6cb;
-} */
+}
 
 .popup-box form{
     position: relative;
